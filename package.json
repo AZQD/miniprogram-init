@@ -1,0 +1,20 @@
+{
+  "name": "miniprogram",
+  "version": "1.0.0",
+  "description": "小程序名称",
+  "scripts": {
+    "lint": "eslint --fix app.js api.js components pages utils"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0"
+  },
+  "license": "ISC",
+  "author": "小程序开发者",
+  "repository": {
+    "type": "git",
+    "url": "小程序代码地址"
+  },
+  "dependencies": {
+  }
+}

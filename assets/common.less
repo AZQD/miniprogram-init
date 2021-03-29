@@ -1,0 +1,29 @@
+@lightColor: #2428F5;
+@ossDomain: 'https://img.***.com/';
+
+.ellipsis(@value: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @value;
+  -webkit-box-orient: vertical;
+}
+button::after{
+  border:none;
+}
+
+//隐藏滚动条
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.placeholderStyle{
+  color: #CCC;
+}
+
+//光标颜色
+input, button, textarea{
+  caret-color: @lightColor;
+}

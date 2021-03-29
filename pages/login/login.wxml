@@ -1,0 +1,8 @@
+<view class="container">
+
+  <view class='loginBox'>
+    <button class="ctrlBtn" open-type="getUserInfo" ang="zh_CN" bindgetuserinfo="getUserInfo" hover-class="none">用户信息授权</button>
+    <button class="ctrlBtn" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" hover-class="none">手机号授权</button>
+  </view>
+
+</view>
